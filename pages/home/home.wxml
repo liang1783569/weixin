@@ -1,4 +1,0 @@
-<!--pages/home/home.wxml-->
-<view>
-   <input class="weui-input" auto-focus placeholder="将会获取焦点"/>
-</view>
