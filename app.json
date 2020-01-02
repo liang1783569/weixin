@@ -1,10 +1,10 @@
 {
   "pages": [
-    "pages/home/home",
     "pages/index/index",
     "pages/sort/sort",
     "pages/cart/cart",
     "pages/profile/profile"
+
   ],
   "window": {
     "navigationBarTitleText": "海米",
