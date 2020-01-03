@@ -1,13 +1,13 @@
- <view class="page-section">
-    <view class="weui-cells__title">{{inputValue}}</view>
-    <view class="weui-cells weui-cells_after-title">
-      <view class="weui-cell weui-cell_input">
-        <image src="/resources/search.png"/>
-        <input class="weui-input" bindinput="bindKeyInput" placeholder="搜索宝贝"/>
-        <button>搜索</button>
-      </view>
+<view class="page-section">
+  <view class="weui-cells__title">{{inputValue}}</view>
+  <view class="weui-cells weui-cells_after-title">
+    <view class="weui-cell weui-cell_input">
+      <image src="/resources/search.png" class="inim"/>
+      <input class="weui-input" bindinput="bindKeyInput" placeholder="搜索宝贝" />
+      <button>搜索</button>
     </view>
-  </view>  
-  <view>
-    <nav></nav>
   </view>
+</view>
+<view>
+  <nav></nav>
+</view>
