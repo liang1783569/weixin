@@ -7,4 +7,7 @@
         <button>搜索</button>
       </view>
     </view>
+  </view>  
+  <view>
+    <nav></nav>
   </view>

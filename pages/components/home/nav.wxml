@@ -1,0 +1,53 @@
+<view class='shopDetail-box'>
+  <view class="tab-left">
+    <view class="{{tabArr.curHdIndex=='1'? 'active' : ''}}" id="1" data-id="1" bindtap="tab"><text>推荐</text></view>
+    <view class="{{tabArr.curHdIndex=='2'? 'active' : ''}}" id="2" data-id="2" bindtap="tab"><text>居家</text></view>
+    <view class="{{tabArr.curHdIndex=='3'? 'active' : ''}}" id="3" data-id="3" bindtap="tab"><text>美妆</text></view>
+    <view class="{{tabArr.curHdIndex=='4'? 'active' : ''}}" id="4" data-id="4" bindtap="tab"><text>个护</text></view>
+    <view class="{{tabArr.curHdIndex=='5'? 'active' : ''}}" id="5" data-id="5" bindtap="tab"><text>箱包</text></view>
+    <view class="{{tabArr.curHdIndex=='6'? 'active' : ''}}" id="6" data-id="6" bindtap="tab"><text>家电</text></view>
+    <view class="{{tabArr.curHdIndex=='7'? 'active' : ''}}" id="7" data-id="7" bindtap="tab"><text>厨房</text></view>
+    <view class="{{tabArr.curHdIndex=='8'? 'active' : ''}}" id="8" data-id="8" bindtap="tab"><text>配饰</text></view>
+    <view class="{{tabArr.curHdIndex=='9'? 'active' : ''}}" id="9" data-id="9" bindtap="tab"><text>零食</text></view>
+    <view class="{{tabArr.curHdIndex=='10'? 'active' : ''}}" id="10" data-id="10" bindtap="tab"><text>母婴</text></view>
+    <view class="{{tabArr.curHdIndex=='11'? 'active' : ''}}" id="11" data-id="11" bindtap="tab"><text>家具</text></view>
+
+  </view>
+
+  <view class="tab-right">
+    <view class="right-item {{tabArr.curBdIndex=='1'? 'active' : ''}}">
+      推荐
+    </view>
+    <view class="right-item {{tabArr.curBdIndex=='2'? 'active' : ''}}">
+      居家
+    </view>
+    <view class="right-item {{tabArr.curBdIndex=='3'? 'active' : ''}}">
+      美妆
+    </view>
+    <view class="right-item {{tabArr.curBdIndex=='4'? 'active' : ''}}">
+      个护
+    </view>
+    <view class="right-item {{tabArr.curBdIndex=='5'? 'active' : ''}}">
+      箱包
+    </view>
+    <view class="right-item {{tabArr.curBdIndex=='6'? 'active' : ''}}">
+      家电
+    </view>
+    <view class="right-item {{tabArr.curBdIndex=='7'? 'active' : ''}}">
+      厨房
+    </view>
+    <view class="right-item {{tabArr.curBdIndex=='8'? 'active' : ''}}">
+      配饰
+    </view>
+    <view class="right-item {{tabArr.curBdIndex=='9'? 'active' : ''}}">
+      零食
+    </view>
+    <view class="right-item {{tabArr.curBdIndex=='10'? 'active' : ''}}">
+      母餐
+    </view>
+    <view class="right-item {{tabArr.curBdIndex=='11'? 'active' : ''}}">
+      家具
+    </view>
+
+  </view>
+</view>

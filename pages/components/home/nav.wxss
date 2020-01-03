@@ -1,0 +1,41 @@
+.tab-left .active {
+  color: #fc5b13;
+  border-bottom: 2px solid #fc5b13;
+}
+ 
+.tab-left {
+  background: #fff;
+  /* position: fixed; */
+  /* z-index: 22; */
+  display: flex;
+  border-bottom: 1px solid #d5d5d5;
+  overflow-x: scroll
+}
+ 
+.tab-left view {
+  height: 80rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ text{
+   width: 108rpx;
+   text-align: center;
+ }
+.tab-right .right-item {
+  display: none;
+  height: 300rpx;
+  width: 100%;
+  /* border: solid 1px; */
+}
+ 
+.tab-right .right-item.active {
+  display: block;
+}
+ 
+.shopDetail-bottom{
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
+  color: #fff;
+}
