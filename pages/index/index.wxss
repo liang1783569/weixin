@@ -14,7 +14,7 @@
   position:relative;
 }
 
-.search{
+.inim {
   width: 32rpx;
   height: 32rpx;
   position: absolute;
