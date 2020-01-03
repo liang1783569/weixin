@@ -2,7 +2,7 @@
     <view class="weui-cells__title">{{inputValue}}</view>
     <view class="weui-cells weui-cells_after-title">
       <view class="weui-cell weui-cell_input">
-        <image src="/resources/search.png"/>
+        <image class="search" src="/resources/search.png"/>
         <input class="weui-input" bindinput="bindKeyInput" placeholder="搜索宝贝"/>
         <button>搜索</button>
       </view>

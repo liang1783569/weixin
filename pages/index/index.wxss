@@ -12,7 +12,7 @@
   justify-content: center;
   position:relative;
 }
-image{
+.search{
   width: 32rpx;
   height: 32rpx;
   position: absolute;
