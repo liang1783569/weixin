@@ -1,0 +1,68 @@
+.recomm{
+  display: flex;
+  flex-direction: column;
+}
+.recomm-img{
+  width: 100%;
+  height: 00%;
+}
+.recomm-img .recommed{
+  width: 100%;
+  height: 1172rpx;
+}
+.nuandong{
+  width: 100%;
+  height: 226rpx;
+}
+.nuandong-scoll1{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  overflow-x: scroll;
+  margin-bottom: 40rpx;
+}
+.nuandong-scoll1 .scoll-one{
+  width: 210rpx;
+  height: 284rpx;
+}
+.hair{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40rpx;
+  width: 100%;
+  height: 100%;
+}
+.hair-img{
+  width: 100%;
+  height: 226rpx;
+}
+.hair-wrap{
+  width: 100%;
+  height: 100%;
+  overflow-x: scroll;
+  display: flex;
+  flex-direction: row;
+}
+.hair-cont image{
+  width: 210rpx;
+  height: 286rpx;
+}
+.product{
+  display: flex;
+  flex-direction: column;
+  background: #eee;
+}
+.gess{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+.gess text{
+  width: 100%;
+  height: 100rpx;
+  text-align: center;
+  line-height: 100rpx;
+  font-size: 30rpx;
+}

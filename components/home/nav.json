@@ -1,6 +1,7 @@
 {
   "component": true,
   "usingComponents": {
-    "recomm":"../recomm/recomm"
+    "recomm":"../recomm/recomm",
+    "at-home":"../at-home/at-home"
   }
 }

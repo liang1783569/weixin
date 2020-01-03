@@ -6,7 +6,7 @@
       <input class="weui-input" bindinput="bindKeyInput" placeholder="搜索宝贝" />
       <button>搜索</button>
     </view>
-  </view>
+    </view>
 </view>
 <view>
   <nav></nav>

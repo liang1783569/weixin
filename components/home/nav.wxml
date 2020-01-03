@@ -19,7 +19,7 @@
       <recomm></recomm>
     </view>
     <view class="right-item {{tabArr.curBdIndex=='2'? 'active' : ''}}">
-      居家
+      <at-home />
     </view>
     <view class="right-item {{tabArr.curBdIndex=='3'? 'active' : ''}}">
       美妆

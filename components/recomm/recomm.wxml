@@ -1,0 +1,157 @@
+<!--components/recomm/recomm.wxml-->
+<view class="recomm">
+  <view class="container">
+    <view class="page-body">
+      <view class="page-section page-section-spacing swiper">
+        <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+          <block wx:for="{{img}}" wx:key="*this">
+            <swiper-item>
+              <view class="swiper-item {{item}}"></view>
+            </swiper-item>
+          </block>
+        </swiper>
+      </view>
+    </view>
+  </view>
+  <view class="recomm-img">
+    <image src="http://img.haimi.com/llA7zd7SEbMjOtwYhYKxLHgswgcm" class="recommed"></image>
+  </view>
+ <view class="hair">
+    <view class="hair-one">
+      <image src="http://img.haimi.com/FkOQmcK5V4MdA8LEGnof3UT6Ydoj" class="hair-img"></image>
+    </view>
+    <view class="hair-wrap">
+      <view class="hair-cont">
+        <image src="http://img.haimi.com/FrQPN-Kl8tGuUKuZHch13y_eV-3w"></image>
+      </view>
+       <view class="hair-cont">
+        <image src="http://img.haimi.com/Fvz1mWOAewSRkzH9VfPrGmUiOz1L"></image>
+      </view>
+       <view class="hair-cont">
+        <image src="http://img.haimi.com/FrNKVoXXwrJ0v9MXYaWtSj1GMTp7"></image>
+      </view>
+       <view class="hair-cont">
+        <image src="http://img.haimi.com/FqVKuUj02ycAYptM8sdDmgkAHZGs"></image>
+      </view>
+       <view class="hair-cont">
+        <image src="http://img.haimi.com/FrcJLd8ZZVeuV3CnUiSb_B14ky6t"></image>
+      </view>
+    </view>
+  </view>
+  <view class="hair">
+    <view class="hair-one">
+      <image src="http://img.haimi.com/FuL7EcMt0nOuIg5kAHO0XNKelZ43" class="hair-img"></image>
+    </view>
+    <view class="hair-wrap">
+      <view class="hair-cont">
+        <image src="http://img.haimi.com/Fplp_awLI_oLlmaUnmQfuwf2Fp9E"></image>
+      </view>
+       <view class="hair-cont">
+        <image src="http://img.haimi.com/FpZrqpCD7IpHG5E7DVXFQQaRK7Bi"></image>
+      </view>
+       <view class="hair-cont">
+        <image src="http://img.haimi.com/Fl6nYeKUo8ht4Fmt7BztIO_jbx2Z"></image>
+      </view>
+       <view class="hair-cont">
+        <image src="http://img.haimi.com/FoBw8r8if0uQmxkBQdUAp1dM6KxO"></image>
+      </view>
+       <view class="hair-cont">
+        <image src="http://img.haimi.com/Fsw0dxVaaJrCgAuw3Dnduk-J2O47"></image>
+      </view>
+    </view>
+  </view>
+  <view class="hair">
+    <view class="hair-one">
+      <image src="http://img.haimi.com/Fg97IMDYRFIhq5w2VF1iwTQo__Sj" class="hair-img"></image>
+    </view>
+    <view class="hair-wrap">
+      <view class="hair-cont">
+        <image src="http://img.haimi.com/FirhaO7WXBzsRyvjGyDvGc-5LrLT"></image>
+      </view>
+       <view class="hair-cont">
+        <image src="http://img.haimi.com/FuK7kr9Xdy7BfDXC4S6tVp5xoFbE"></image>
+      </view>
+       <view class="hair-cont">
+        <image src="http://img.haimi.com/FvDGBp8Wo6cfDSbHpuVGVZFqAMNS"></image>
+      </view>
+       <view class="hair-cont">
+        <image src="http://img.haimi.com/FhNuAD7k_bRmg8xEVkfVa_QAQSQB"></image>
+      </view>
+       <view class="hair-cont">
+        <image src="http://img.haimi.com/FnGnA6CVLeooWzRUoZ3DMXsQHAUD"></image>
+      </view>
+    </view>
+  </view>
+  <view class="hair">
+    <view class="hair-one">
+      <image src="http://img.haimi.com/FjNvC_jOQdoV01dj3bE6IQqDYPMn" class="hair-img"></image>
+    </view>
+    <view class="hair-wrap">
+      <view class="hair-cont">
+        <image src="http://img.haimi.com/FvOEc-kno2yyPMtRlgBgHfKBPPPl"></image>
+      </view>
+       <view class="hair-cont">
+        <image src="http://img.haimi.com/FoicKv_FSemKVUxMfXi23jwDufyT"></image>
+      </view>
+       <view class="hair-cont">
+        <image src="http://img.haimi.com/FhyA72s6pNCjmuVc2GCHcTKMRS7X"></image>
+      </view>
+       <view class="hair-cont">
+        <image src="http://img.haimi.com/FjvYtqlKqt2eIzErQx6OHJDd1gOm"></image>
+      </view>
+       <view class="hair-cont">
+        <image src="http://img.haimi.com/FvFaL20ag4uBlW24QQykMHokGzVS"></image>
+      </view>
+    </view>
+  </view>
+  <view class="hair">
+    <view class="hair-one">
+      <image src="http://img.haimi.com/FlrfZSKD3OUZkL7ajres4oCwtqcv" class="hair-img"></image>
+    </view>
+    <view class="hair-wrap">
+      <view class="hair-cont">
+        <image src="http://img.haimi.com/Fhl38XscOpJbIfMu_RJ4fNlJc18X"></image>
+      </view>
+       <view class="hair-cont">
+        <image src="http://img.haimi.com/FiCzRfcLJj7uxFSctb7VeE3Vk67s"></image>
+      </view>
+       <view class="hair-cont">
+        <image src="http://img.haimi.com/Fk7kPyLFDO4XtzyAd39EYQFRAzuM"></image>
+      </view>
+       <view class="hair-cont">
+        <image src="http://img.haimi.com/Fnav5wDgC3UNRiwFRnKwQ72EXFKn"></image>
+      </view>
+       <view class="hair-cont">
+        <image src="http://img.haimi.com/FhjsqetHGgQWSDWXX1Iq2uDTmQ1f"></image>
+      </view>
+    </view>
+  </view>
+  <view class="hair">
+    <view class="hair-one">
+      <image src="http://img.haimi.com/FioYEkMOEM-84le8JFA6y6Y8GG9F" class="hair-img"></image>
+    </view>
+    <view class="hair-wrap">
+      <view class="hair-cont">
+        <image src="http://img.haimi.com/FjGRTp5cYDJoCuWZDxtk6o9hwXhW"></image>
+      </view>
+       <view class="hair-cont">
+        <image src="http://img.haimi.com/FjcoMQpDUMjFqP-dIOhia4q-Ey-_"></image>
+      </view>
+       <view class="hair-cont">
+        <image src="http://img.haimi.com/FlZGP1RZ-EWeUBgd7bh2qt3rouUp"></image>
+      </view>
+       <view class="hair-cont">
+        <image src="http://img.haimi.com/FuB-q1X9BmzfHZea-oIDd7CPd7Hr"></image>
+      </view>
+       <view class="hair-cont">
+        <image src="http://img.haimi.com/FhcTAGpgOB6xhAhcukmaumPN8S-I"></image>
+      </view>
+    </view>
+  </view>
+  <view class="product">
+    <view class="gess">
+      <text>猜你喜欢</text>
+      <view class="product-list"></view>
+    </view>
+  </view>
+</view>
