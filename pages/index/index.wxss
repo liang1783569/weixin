@@ -1,3 +1,4 @@
+
 .weui-cells_after-title{
   padding: 10rpx 10rpx;
   background: #242424;
@@ -12,7 +13,8 @@
   justify-content: center;
   position:relative;
 }
-.search{
+
+.inim {
   width: 32rpx;
   height: 32rpx;
   position: absolute;

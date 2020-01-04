@@ -16,7 +16,7 @@
 
   <view class="tab-right">
     <view class="right-item {{tabArr.curBdIndex=='1'? 'active' : ''}}">
-      推荐
+      <recomm></recomm>
     </view>
     <view class="right-item {{tabArr.curBdIndex=='2'? 'active' : ''}}">
       <at-home />
