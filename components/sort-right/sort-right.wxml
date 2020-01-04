@@ -1,0 +1,11 @@
+<view class="sort-right">
+   <view class="list-box">
+      <view class="item-box"  wx:for="{{list}}" wx:key="id">
+        <image class="item-img" src="{{item.Picture}}"></image>
+        <text class="item-SlideName">{{item.SlideName}}</text>
+        <text class="item-Description">{{item.Description}}</text>
+      </view>
+
+    </view>
+
+</view>

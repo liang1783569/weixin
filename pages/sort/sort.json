@@ -1,3 +1,6 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "sort-left":"../../components/sort-left/sort-left",
+    "sort-right": "../../components/sort-right/sort-right"
+  }
 }

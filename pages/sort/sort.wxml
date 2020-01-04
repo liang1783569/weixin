@@ -1,2 +1,11 @@
-<!--pages/sort/sort.wxml-->
-<text>pages/sort/sort.wxml</text>
+<view class="sort">
+  <view class="tab-left">
+    <view class="{{tabArr.curHdIndex=='1'? 'active' : ''}}" id="1" data-id="1" bindtap="tab">分类</view>
+    <view class="{{tabArr.curHdIndex=='2'? 'active' : ''}}" id="2" data-id="2" bindtap="tab">品牌</view>
+  </view>
+
+  <view class="tab-right">
+    <view class="right-item {{tabArr.curBdIndex=='1'? 'active' : ''}}"><sort-left /></view>
+    <view class="right-item {{tabArr.curBdIndex=='2'? 'active' : ''}}"><sort-right /></view>
+  </view>
+</view>
