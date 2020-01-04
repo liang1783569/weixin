@@ -30,7 +30,7 @@ Page({
   },
 
   data: {
-    img: ['1.png', 'demo-text-2', 'demo-text-3'],
+    image: ['1.png', 'demo-text-2', 'demo-text-3'],
     indicatorDots: true,
     vertical: true,
     autoplay: true,
