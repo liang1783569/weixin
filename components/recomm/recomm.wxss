@@ -74,3 +74,37 @@
   line-height: 100rpx;
   font-size: 30rpx;
 }
+.product-list{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: space-between;
+}
+.item-box{
+  width: 50%;
+  height: 508rpx;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+}
+.item-image{
+  width: 368rpx;
+  height: 368rpx;
+}
+.item-content{
+  width:368rpx;
+  height: 18rpx;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 18rpx;
+  color: #242424;
+}
+.item-price{
+  font-size: 18rpx;
+  height: 18rpx;
+  color: #242424;
+  width: 100%;
+}
+

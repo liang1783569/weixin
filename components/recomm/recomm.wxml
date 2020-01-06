@@ -13,16 +13,16 @@
       <swiper-item>
         <image src='http://img.haimi.com/FlA5hnm0GXzIFTENi3GZh1CYJfAI'></image>
       </swiper-item>
-       <swiper-item>
+      <swiper-item>
         <image src='http://img.haimi.com/Fvck1Bgz5QAwirLxfMM5uyIlyD-A'></image>
       </swiper-item>
-       <swiper-item>
+      <swiper-item>
         <image src='http://img.haimi.com/FvC8r9DKWSX7e_JQrz_tJXhz_dnK'></image>
       </swiper-item>
-       <swiper-item>
+      <swiper-item>
         <image src='http://img.haimi.com/Ftly6ZAZSqWtVX3ffQFhLTBRaiiL'></image>
       </swiper-item>
-       <swiper-item>
+      <swiper-item>
         <image src='http://img.haimi.com/Fvf0-BJmaunKLR2f2hriiDNwz6Ep'></image>
       </swiper-item>
     </swiper>
@@ -165,7 +165,93 @@
   <view class="product">
     <view class="gess">
       <text>猜你喜欢</text>
-      <view class="product-list"></view>
+      <view class="product-list">
+        <view class="item-box" wx:for="{{productList}}" wx:key="ProductID">
+          <image class="item-image" src="{{item.Pictures}}"></image>
+          <text class="item-content">{{item.Subject}}</text>
+          <text class="item-price">{{item.FinalPrice}}</text>
+        </view>
+      </view>
+    </view>
+    <view class="gess">
+      <text>美妆</text>
+      <view class="product-list">
+        <view class="item-box" wx:for="{{beautyList}}" wx:key="ProductID">
+          <image class="item-image" src="{{item.Pictures}}"></image>
+          <text class="item-content">{{item.Subject}}</text>
+          <text class="item-price">{{item.FinalPrice}}</text>
+        </view>
+      </view>
+    </view>
+    <view class="gess">
+      <text>居家</text>
+      <view class="product-list">
+        <view class="item-box" wx:for="{{homeList}}" wx:key="ProductID">
+          <image class="item-image" src="{{item.Pictures}}"></image>
+          <text class="item-content">{{item.Subject}}</text>
+          <text class="item-price">{{item.FinalPrice}}</text>
+        </view>
+      </view>
+    </view>
+    <view class="gess">
+      <text>配饰</text>
+      <view class="product-list">
+        <view class="item-box" wx:for="{{directList}}" wx:key="ProductID">
+          <image class="item-image" src="{{item.Pictures}}"></image>
+          <text class="item-content">{{item.Subject}}</text>
+          <text class="item-price">{{item.FinalPrice}}</text>
+        </view>
+      </view>
+    </view>
+    <view class="gess">
+      <text>家电</text>
+      <view class="product-list">
+        <view class="item-box" wx:for="{{electList}}" wx:key="ProductID">
+          <image class="item-image" src="{{item.Pictures}}"></image>
+          <text class="item-content">{{item.Subject}}</text>
+          <text class="item-price">{{item.FinalPrice}}</text>
+        </view>
+      </view>
+    </view>
+    <view class="gess">
+      <text>个护</text>
+      <view class="product-list">
+        <view class="item-box" wx:for="{{personList}}" wx:key="ProductID">
+          <image class="item-image" src="{{item.Pictures}}"></image>
+          <text class="item-content">{{item.Subject}}</text>
+          <text class="item-price">{{item.FinalPrice}}</text>
+        </view>
+      </view>
+    </view>
+     <view class="gess">
+      <text>厨房</text>
+      <view class="product-list">
+        <view class="item-box" wx:for="{{kitchenList}}" wx:key="ProductID">
+          <image class="item-image" src="{{item.Pictures}}"></image>
+          <text class="item-content">{{item.Subject}}</text>
+          <text class="item-price">{{item.FinalPrice}}</text>
+        </view>
+      </view>
+    </view>
+    <view class="gess">
+      <text>箱包</text>
+      <view class="product-list">
+        <view class="item-box" wx:for="{{bagList}}" wx:key="ProductID">
+          <image class="item-image" src="{{item.Pictures}}"></image>
+          <text class="item-content">{{item.Subject}}</text>
+          <text class="item-price">{{item.FinalPrice}}</text>
+        </view>
+      </view>
+    </view>
+    <view class="gess">
+      <text>母婴</text>
+      <view class="product-list">
+        <view class="item-box" wx:for="{{motherList}}" wx:key="ProductID">
+          <image class="item-image" src="{{item.Pictures}}"></image>
+          <text class="item-content">{{item.Subject}}</text>
+          <text class="item-price">{{item.FinalPrice}}</text>
+        </view>
+      </view>
     </view>
   </view>
 </view>

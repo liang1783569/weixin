@@ -4,7 +4,8 @@
     "pages/sort/sort",
     "pages/cart/cart",
     "pages/profile/profile",
-    "pages/house/house"
+    "pages/house/house",
+    "pages/search/search"
   ],
   "window": {
     "navigationBarTitleText": "海米",
