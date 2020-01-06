@@ -1,0 +1,31 @@
+/* components/sort-left/sort-left.wxss */
+.first{
+  margin: 10rpx 0
+}
+.f-box{
+
+  background: #fff
+}
+
+.ul{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-left: 30rpx;
+}
+.ul view{
+  width: 110rpx;
+  font-size: 28rpx;
+  text-align: center;
+  height: 66rpx;
+  line-height: 66rpx;
+  border: 2rpx solid #e5e5e5;
+  margin: 32rpx 30rpx 20rpx 0;
+}
+.ul view.air{
+  width: 160rpx;
+}
+.sort-left-img{
+  width: 100%;
+  height: 280rpx;
+}

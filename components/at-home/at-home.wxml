@@ -4,7 +4,7 @@
     <text class="at-text">居家</text>
   </view>
     <view class="list-box">
-      <view class="item-box"  wx:for="{{list}}" wx:key="{{item.ProductID}}">
+      <view class="item-box"  wx:for="{{list}}" wx:key="id">
         <image class="item-img" src="{{item.Pictures}}"></image>
         <text class="item-content">{{item.Subject}}</text>
         <text class="item-price">{{item.FinalPrice}}</text>

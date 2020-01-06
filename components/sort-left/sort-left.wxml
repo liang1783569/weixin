@@ -1,0 +1,84 @@
+<view class="sort-left">
+  <view class="first">
+    <view class="f-box">
+      <view class="ul">
+        <view>毛巾</view>
+        <view>摆件</view>
+        <view>雨具</view>
+        <view>收纳</view>
+        <view>洗衣</view>
+      </view>
+    </view>
+    <image class="sort-left-img" src="http://img.haimi.com/FgHw-Qt_o8Dpt6Xj9Yq7TXuldwZ6"></image>
+    <view class="f-box">
+      <view class="ul">
+        <view>杯壶</view>
+        <view>锅具</view>
+        <view>刀铲</view>
+        <view>其他</view>
+      </view>
+    </view>
+    <view class="f-box">
+      <view class="ul">
+        <view>奶粉</view>
+        <view>尿裤</view>
+        <view>喂养</view>
+      </view>
+    </view>
+
+  </view>
+  <view class="first">
+    <view class="f-box">
+      <view class="ul">
+        <view>手提包</view>
+        <view>钱包</view>
+        <view>拉杆包</view>
+        <view>收纳包</view>
+        <view>双肩包</view>
+      </view>
+    </view>
+  </view>
+  <view class="first">
+    <view class="f-box">
+      <view class="ul">
+        <view>吸尘器</view>
+        <view>电饭煲</view>
+        <view class="air">电动牙刷</view>
+        <view>剃须刀</view>
+        <view class="air">空气净化器</view>
+      </view>
+    </view>
+  </view>
+  <view class="first">
+    <view class="f-box">
+      <view class="ul">
+        <view>音箱</view>
+        <view>耳机</view>
+        <view>摄像机</view>
+        <view>故事机</view>
+      </view>
+       <image class="sort-left-img" src="http://img.haimi.com/Fls0rowTnDdfI8b4lgoJ9qt7A7Vz"></image>
+        <view class="ul">
+        <view>手表</view>
+        <view>项链</view>
+        <view>手链</view>
+        <view>围巾</view>
+        <view>戒指</view>
+      </view>
+    </view>
+  </view>
+  <view class="first">
+    <view class="f-box">
+      <view class="ul">
+        <view>椅子</view>
+        <view>柜子</view>
+        <view>架子</view>
+        <view>桌子</view>
+        <view>沙发</view>
+        <view>木床</view>
+      </view>
+    </view>
+  </view>
+
+
+</view>

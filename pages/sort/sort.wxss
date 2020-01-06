@@ -1,1 +1,41 @@
-/* pages/sort/sort.wxss */
+.sort{
+  background: #f7f7f7;
+}
+.tab-left .active {
+  color: #fc5b13;
+  border-bottom: 2px solid #fc5b13;
+}
+ 
+.tab-left {
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 300rpx;
+}
+ 
+.tab-left view {
+  height: 80rpx;
+  width: 100rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24rpx;
+  color: #242424;
+}
+.tab-right .right-item {
+  display: none;
+  height: 100%;
+  width: 100%;
+  /* border: solid 1px; */
+}
+ 
+.tab-right .right-item.active {
+  display: block;
+}
+ 
+.shopDetail-bottom{
+  /* position: absolute; */
+  left: 15px;
+  bottom: 15px;
+  color: #fff;
+}
