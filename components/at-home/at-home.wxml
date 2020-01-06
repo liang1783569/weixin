@@ -1,7 +1,7 @@
 <view class="at-home">
-  <image class="at-home-img" src="http://img.haimi.com/FpPfzrC0Mzg84qwN4pHCqEoi4XCe"></image>
+  <image class="at-home-img" src="{{bannerimg}}"></image>
   <view class="at-home-text">
-    <text class="at-text">居家</text>
+    <text class="at-text">{{title}}</text>
   </view>
     <view class="list-box">
       <view class="item-box"  wx:for="{{list}}" wx:key="id">

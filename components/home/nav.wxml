@@ -19,34 +19,74 @@
       <recomm></recomm>
     </view>
     <view class="right-item {{tabArr.curBdIndex=='2'? 'active' : ''}}">
-      <at-home />
+      <at-home
+        url="http://m.haimi.com/api/nav/advert-team-products?NavID=3&page=1&pageSize=100&platform=WAP"  
+        title="居家" 
+        bannerimg="http://img.haimi.com/FpPfzrC0Mzg84qwN4pHCqEoi4XCe"
+        ></at-home>
     </view>
     <view class="right-item {{tabArr.curBdIndex=='3'? 'active' : ''}}">
-      美妆
+      <at-home 
+      url="http://m.haimi.com/api/nav/advert-team-products?NavID=13&page=1&pageSize=100&platform=WAP"
+      title="美妆" 
+      bannerimg="http://img.haimi.com/FitZpwDiNmA6JHXKrHaF_UCjD-Jl"
+      ></at-home>
     </view>
     <view class="right-item {{tabArr.curBdIndex=='4'? 'active' : ''}}">
-      个护
+     <at-home 
+      url="http://m.haimi.com/api/nav/advert-team-products?NavID=12&page=1&pageSize=100&platform=WAP"
+      title="个护" 
+      bannerimg="http://img.haimi.com/Fhi7Y9wH_NuD3AE8WOfBR2uZOpQk"
+      ></at-home>
     </view>
     <view class="right-item {{tabArr.curBdIndex=='5'? 'active' : ''}}">
-      箱包
+     <at-home 
+      url="http://m.haimi.com/api/nav/advert-team-products?NavID=8&page=1&pageSize=100&platform=WAP"
+      title="箱包" 
+      bannerimg="http://img.haimi.com/Fqfsyfetu4tLswyJmQiAwFLypkXf"
+      ></at-home>
     </view>
     <view class="right-item {{tabArr.curBdIndex=='6'? 'active' : ''}}">
-      家电
+      <at-home 
+      url="http://m.haimi.com/api/nav/advert-team-products?NavID=9&page=1&pageSize=100&platform=WAP"
+      title="家电" 
+      bannerimg="http://img.haimi.com/FqXj3-O_A-XGUerFi0aICOsJwBWR"
+      ></at-home>
     </view>
     <view class="right-item {{tabArr.curBdIndex=='7'? 'active' : ''}}">
-      厨房
+       <at-home 
+      url="http://m.haimi.com/api/nav/advert-team-products?NavID=4&page=1&pageSize=100&platform=WAP"
+      title="厨房" 
+      bannerimg="http://img.haimi.com/Figj9hpZ84ePBvC7a08y4AO-5ojH"
+      ></at-home>
     </view>
     <view class="right-item {{tabArr.curBdIndex=='8'? 'active' : ''}}">
-      配饰
+    <at-home 
+      url="http://m.haimi.com/api/nav/advert-team-products?NavID=11&page=1&pageSize=100&platform=WAP"
+      title="配饰" 
+      bannerimg="http://img.haimi.com/FrtXkca9-IQVw4YPaOotpfvhiaI5"
+      ></at-home>
     </view>
     <view class="right-item {{tabArr.curBdIndex=='9'? 'active' : ''}}">
-      零食
+     <at-home 
+      url="http://m.haimi.com/api/nav/advert-team-products?NavID=14&page=1&pageSize=100&platform=WAP"
+      title="零食" 
+      bannerimg="http://img.haimi.com/FqWGxHqlSPRVStBsjFYhnogAGPNT"
+      ></at-home>
     </view>
     <view class="right-item {{tabArr.curBdIndex=='10'? 'active' : ''}}">
-      母餐
+       <at-home 
+      url="http://m.haimi.com/api/nav/advert-team-products?NavID=7&page=1&pageSize=100&platform=WAP"
+      title="母餐" 
+      bannerimg="http://img.haimi.com/Fs9xWtb8n67cAdak-bleC0NCLX0K"
+      ></at-home>
     </view>
     <view class="right-item {{tabArr.curBdIndex=='11'? 'active' : ''}}">
-      家具
+       <at-home 
+      url="http://m.haimi.com/api/nav/advert-team-products?NavID=5&page=1&pageSize=100&platform=WAP"
+      title="家具" 
+      bannerimg=" http://img.haimi.com/FsMRBi-ZerXsMTW3WrIAhYLosvgk"
+      ></at-home>
     </view>
 
   </view>
