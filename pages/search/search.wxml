@@ -1,29 +1,25 @@
-<view class="search-wrap">
+<!-- <view class="search-wrap">
   <view class="search-head">
     <input
      bindinput="handleInput"
+     value="{{keyword}}"
     ></input>
-    <text>搜索</text>
+    <text bindtap="searchTap">搜索</text>
   </view>
+  
   <view class="result-list">
     <view class="search-bar">
       <text>综合排序</text>   
       <text>销量优先</text>
       <text>价格排序</text>
     </view>
-    <scroll-view
-     class="list-content"
-     scroll-y
-    >
-      <view 
-       class="search-item"
-       wxx:for="{{searchList}}"
-       wx:key="ProductID"
-      >
-        <image>{{item.Pictures}}</image>
+    <view class="list-content">
+      <view class="item-box" wx:for="{{searchList}}" wx:key="ProductID">
+        <image class="item-img" src="{{item.Pictures}}"></image>
         <text class="item-cont">{{item.Subject}}</text>
-        <text class="item-price">{{item.FinalPrice}}</text>
+        <text class="item-price">￥{{item.FinalPrice}}</text>
       </view>
-    </scroll-view>
+    </view>
   </view>
-</view>
+</view> -->
+<search></search>

@@ -1,0 +1,82 @@
+/* components/search/search.wxss */
+.search-wrap{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.search-head{
+  width: 100%;
+  height: 54rpx;
+  display: flex;
+  flex-direction: row;
+  padding: 16rpx 20rpx;
+  border: 1rpx #ccc solid;
+  justify-content: center;
+}
+.search-head input{
+  padding-left: 20rpx;
+  height: 100%;
+  flex: 1;
+  border: 1rpx #ccc solid;
+  background: #f7f7f7;
+  border-radius: 10rpx;
+}
+.search-head text{
+  line-height: 56rpx;
+  width: 100rpx;
+  margin-right: 10rpx;
+  height: 56rpx;
+  text-align: center;
+}
+.result-list{
+  display: flex;
+  flex-direction: column;
+}
+.search-bar{
+  display: flex;
+  flex-direction: row;
+  height: 80rpx;
+}
+.search-bar text{
+  width: 33%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.list-content{
+  flex:1;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: space-between;
+}
+.item-box{
+  width: 50%;
+  height: 504rpx;
+  display: flex;
+  flex-direction: column;
+}
+.item-img{
+  width: 100%;
+  height: 364rpx;
+}
+.item-cont{
+  width: 100%;
+  height: 50rpx;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 30rpx;
+  color: #242424;
+  line-height: 50rpx;
+  padding: 10rpx 20rpx;
+}
+.item-price{
+  font-size: 30rpx;
+  color: #242424;
+  line-height: 50rpx;
+  padding: 10rpx 20rpx;
+}

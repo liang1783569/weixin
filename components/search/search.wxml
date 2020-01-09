@@ -1,0 +1,21 @@
+<view class="search-wrap">
+    <view class="search-head">
+        <input  bindinput="handleInput"></input>
+        <text bindtap="searchTap">搜索</text>
+    </view>
+    <!-- <search search="{{handleInput}}" bindselectresult="selectResult" bindinput="handleInput"></search> -->
+    <view class="result-list">
+        <view class="search-bar">
+            <text>综合排序</text>
+            <text>销量优先</text>
+            <text>价格排序</text>
+        </view>
+        <view class="list-content">
+            <view class="item-box" wx:for="{{searchList}}" wx:key="ProductID">
+                <image class="item-img" src="{{item.Pictures}}"></image>
+                <text class="item-cont">{{item.Subject}}</text>
+                <text class="item-price">￥{{item.FinalPrice}}</text>
+            </view>
+        </view>
+    </view>
+</view>
