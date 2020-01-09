@@ -1,4 +1,4 @@
-// pages/cart/cart.js
+// pages/detail/detail.js
 Page({
 
   /**
@@ -19,18 +19,6 @@ Page({
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-    let that = this
-    wx.request({
-      url: "http://m.haimi.com/api/cart/info?clearInvalidProducts=Y&platform=WAP", //仅为示例，并非真实的接口地址
-      header: {
-        'content-type': 'application/json' // 默认值
-      },
-      success(res) {
-        that.setData({
-          list: res.data.extra.Suggest
-        })
-      }
-    })
 
   },
 
@@ -74,11 +62,5 @@ Page({
    */
   onShareAppMessage: function () {
 
-  },
-  goToIndex(){
-    console.log(0)
-    wx.switchTab({
-      url:'../index/index',
-    })
   }
 })

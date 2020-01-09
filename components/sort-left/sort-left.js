@@ -18,6 +18,9 @@ Component({
    * 组件的方法列表
    */
   methods: {
+    getText(e){
+      console.log(e.currentTarget.dataset.name)
+    }
 
   }
 })

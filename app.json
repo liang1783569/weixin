@@ -4,15 +4,15 @@
     "pages/sort/sort",
     "pages/cart/cart",
     "pages/profile/profile",
-    "pages/search/search",
-    "pages/house/house"
+    "pages/detail/detail",
+    "pages/house/house",
+    "pages/search/search"
   ],
   "window": {
     "navigationBarTitleText": "海米",
     "navigationBarBackgroundColor": "#00b3ba",
     "navigationBarTextStyle": "white"
   },
-  
   "tabBar": {
     "color": "#999",
     "selectedColor": "#801a2a",
