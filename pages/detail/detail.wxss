@@ -1,0 +1,15 @@
+/* pages/detail/detail.wxss */
+.detail{
+  display: flex;
+  justify-content: center;
+  background: #f7f7f7;
+}
+.lunbo{
+  width: 580rpx;
+  height: 560rpx;
+}
+
+image{
+  width: 580rpx;
+  height: 560rpx
+}
