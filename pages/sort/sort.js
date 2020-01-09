@@ -1,18 +1,6 @@
 
-
 Page({
-
-
-
-  /**
-  
-  * 页面的初始数据
-  
-  */
-
   data: {
-
-    // tab 切换
 
     tabArr: {
 
@@ -23,12 +11,7 @@ Page({
     },
 
   },
-
-  //tab切换
-
-  tab: function (e) {
-
-    //var dataId = e.currentTarget.dataset.id;
+  tab: function(e) {
 
     var dataId = e.currentTarget.id;
 
@@ -44,29 +27,10 @@ Page({
 
     })
 
-    //console.log(e);
-
   },
+ 
 
-  /**
-  
-  * 生命周期函数--监听页面加载
-  
-  */
-
-  onLoad: function (options) {
-
-  },
-
-
-
-  /**
-  
-  * 生命周期函数--监听页面初次渲染完成
-  
-  */
-
-  onReady: function () {
+  onReady: function() {
 
   },
 
@@ -78,7 +42,7 @@ Page({
   
   */
 
-  onShow: function () {
+  onShow: function() {
 
   },
 
@@ -90,7 +54,7 @@ Page({
   
   */
 
-  onHide: function () {
+  onHide: function() {
 
   },
 
@@ -102,7 +66,7 @@ Page({
   
   */
 
-  onUnload: function () {
+  onUnload: function() {
 
   },
 
@@ -114,7 +78,7 @@ Page({
   
   */
 
-  onPullDownRefresh: function () {
+  onPullDownRefresh: function() {
 
   },
 
@@ -126,7 +90,7 @@ Page({
   
   */
 
-  onReachBottom: function () {
+  onReachBottom: function() {
 
   },
 
@@ -138,7 +102,7 @@ Page({
   
   */
 
-  onShareAppMessage: function () {
+  onShareAppMessage: function() {
 
   }
 

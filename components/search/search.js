@@ -12,15 +12,38 @@ Component({
    */
   data: {
     searchList: [],
-    Subject: ''
+    Subject: '',
+    sortItem: ''
+  },
+  attached: function() {
+    let that = this
+    wx.getStorage({
+      key: 'sortItem',
+      success: function(res) {
+        that.data.sortItem = encodeURIComponent(res.data)
+        wx.request({
+          url: 'http://m.haimi.com/api/search/product?ActivityID=&BonusID=&Status=ON&page=1&pageSize=20&Subject=' + that.data.sortItem + '&Sort=&BrandID=&platform=WAP',
+          header: {
+            'content-type': 'application/x-www--forn-urlencoded'
+          },
+          success: (res) => {
+            that.setData({
+              searchList: res.data.data
+            })
+          }
+
+        })
+      },
+    })
   },
 
   /**
    * 组件的方法列表
    */
   methods: {
+
     _getData() {
-      let Subject=this.data.Subject
+      let Subject = this.data.Subject
       wx.request({
         url: 'http://m.haimi.com/api/search/product?ActivityID=&BonusID=&Status=ON&page=1&pageSize=20&Subject=%E8%A3%99%E5%AD%90&Sort=&BrandID=&platform=WAP',
         data: {
@@ -37,12 +60,13 @@ Component({
             })
           }
         }
+
       })
     },
 
 
     handleInput(e) {
-      let Subject=e.detail.value
+      let Subject = e.detail.value
       console.log(Subject)
       this.setData({
         Subject

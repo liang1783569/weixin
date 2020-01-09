@@ -19,8 +19,19 @@ Component({
    */
   methods: {
     getText(e){
-      console.log(e.currentTarget.dataset.name)
+      let val = e.currentTarget.dataset.name
+      console.log(val)
+      wx.setStorage({
+        key: 'sortItem',
+        data: val,
+        success: function (res) {
+          console.log('异步保存成功')
+        }
+      })
+      wx.navigateTo({    //保留当前页面，跳转到应用内的某个页面（最多打开5个页面，之后按钮就没有响应的）
+        url: "/pages/search/search"
+      })
     }
-
+    
   }
 })
