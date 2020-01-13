@@ -1,0 +1,36 @@
+
+<view class="detail" bindtap="detailTap">
+  <swiper class='lunbo' indicator-dots='true' autoplay='true' interval='3000' circular="true">
+      <swiper-item class="item">
+        <image src='http://img.haimi.com/FsoQ9vNkAWBGtil8ACfoEKktsJqb?imageView2/1/w/750/h/563'></image>
+      </swiper-item>
+      <swiper-item class="item">
+        <image src='http://img.haimi.com/FhzdWwdV7XEMUdqZJn7xTS9XHI5U?imageView2/1/w/750/h/563'></image>
+      </swiper-item>
+      <swiper-item class="item">
+        <image src=' http://img.haimi.com/FlYQvRCshPekaZhifJXMhBwcAlT1?imageView2/1/w/750/h/563'></image>
+      </swiper-item>
+       <swiper-item class="item">
+        <image src='http://img.haimi.com/FthpPKz3S-rbxLr4zASwSCBGuZcE?imageView2/1/w/750/h/563'></image>
+      </swiper-item>
+      <swiper-item class="item">
+        <image src='http://img.haimi.com/FtbseID0Inw9Mu3mCbBH8aVz1JLa?imageView2/1/w/750/h/563'></image>
+      </swiper-item>
+      <swiper-item class="item">
+        <image src='http://img.haimi.com/Fm1IxB7xIr2VYtXv9mAdWFVOKq5M?imageView2/1/w/750/h/563'></image>
+      </swiper-item>
+  </swiper>
+<text class="detail-discribe">
+  {{list.Subject}}
+</text>
+<text class="detail-price">￥59.00-￥177.00</text>
+<text class="detail-postage">- 邮费0元</text>
+<view class="detail-promise">
+  <text class="promise-one"><image src="../../resources/duihao.png"></image>正品保证</text>
+  <text class="promise-two"><image src="../../resources/duihao.png"></image>售后无忧</text>
+  <text class="promise-three"><image src="../../resources/duihao.png"></image>七天无理由退款</text>
+</view>
+<text class="detail-discount">年货节大满减66减6/100减10/200减20/300减40</text>
+<text class="detail-size">请选择：尺码大小</text>
+<text class="detail-score">宝贝评分：</text>
+</view>

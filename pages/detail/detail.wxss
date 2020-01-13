@@ -1,15 +1,15 @@
 /* pages/detail/detail.wxss */
-.detail{
+.detail-page{
   display: flex;
-  justify-content: center;
-  background: #f7f7f7;
+  flex-direction: column;
+  overflow: hidden;
 }
-.lunbo{
-  width: 580rpx;
-  height: 560rpx;
+.detail-cont{
+  flex:1;
+  overflow-y: scroll;
 }
-
-image{
-  width: 580rpx;
-  height: 560rpx
+.foot{
+  width: 100%;
+  height: 100rpx;
+  background: red;
 }
