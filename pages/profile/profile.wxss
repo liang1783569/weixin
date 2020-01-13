@@ -1,1 +1,58 @@
 /* pages/profile/profile.wxss */
+
+.header {
+  height: 74rpx;
+  color: #991f33;
+  background: #fff9f3;
+  font-size: 26rpx;
+  text-align: center;
+  line-height: 74rpx;
+}
+
+.login-box {
+  padding: 32rpx 24rpx ;
+  
+}
+
+.phonenum {
+  font-size: 28rpx;
+  height: 68rpx;
+  line-height: 68rpx;
+  border-bottom: 2rpx solid #ccc;
+  display: flex;
+  align-items: center
+}
+.phonenum input{
+  margin-left: 20rpx;
+  width: 70%
+}
+.verification{
+  font-size: 28rpx;
+  height: 68rpx;
+  line-height: 68rpx;
+  border-bottom: 2rpx solid #ccc;
+  display: flex;
+  align-items: center;
+  margin-top: 32rpx
+ 
+}
+.verification input{
+  margin-left: 20rpx;
+  width: 50%
+}
+
+button{
+  height: 80rpx;
+  color: #fff;
+  background: #991f33;
+  line-height: 80rpx;
+  margin-top: 60rpx;
+}
+.codeBtn{
+  height: 68rpx;
+  margin-top: 0;
+  background: #fff;
+  color: #991f33;
+  font-size: 28rpx;
+}
+

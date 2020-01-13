@@ -1,2 +1,17 @@
 <!--pages/profile/profile.wxml-->
-<text>pages/profile/profile.wxml</text>
+<view class="profile">
+  <view class="header">请输入手机号码验证码直接登录</view>
+  <view class="login-box">
+   <view class="phonenum">
+    <text>手机号码:</text>
+    <input bindinput='bindPhoneInput'></input>
+  </view>
+    <view class="verification">
+    <text>验证码:</text>
+    <input bindinput='bindCodeInput' ></input>
+   <button class='codeBtn' bindtap='getCode' hidden='{{hidden}}' disabled='{{btnDisabled}}'>{{btnValue}}</button>
+  </view>
+  <button>登录</button>
+  </view>
+ 
+</view>
