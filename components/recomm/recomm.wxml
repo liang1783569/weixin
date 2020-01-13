@@ -166,7 +166,13 @@
     <view class="gess">
       <text>猜你喜欢</text>
       <view class="product-list">
-        <view class="item-box" wx:for="{{productList}}" wx:key="ProductID">
+        <view 
+          bindtap="onMyEvent"
+          class="item-box"
+          wx:for="{{productList}}" 
+          wx:key="ProductID" 
+          data-item = "{{item}}"
+          >
           <image class="item-image" src="{{item.Pictures}}"></image>
           <text class="item-content">{{item.Subject}}</text>
           <text class="item-price">￥ {{item.FinalPrice}}</text>

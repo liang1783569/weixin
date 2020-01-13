@@ -13,7 +13,8 @@ Component({
   data: {
     searchList: [],
     Subject: '',
-    sortItem: ''
+    sortItem: '',
+    detail:''
   },
   attached: function() {
     let that = this
@@ -41,7 +42,6 @@ Component({
    * 组件的方法列表
    */
   methods: {
-
     _getData() {
       let Subject = this.data.Subject
       wx.request({
@@ -78,6 +78,11 @@ Component({
       //   Subject
       // })
       this._getData()
+    },
+
+
+    getDetail(e){
+      console.log(e)
     }
   }
 })
