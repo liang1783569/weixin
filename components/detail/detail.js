@@ -11,7 +11,7 @@ Component({
       // 在 numberA 或者 numberB 被设置时，执行这个函数
      let that = this
       wx.request({
-        url:`http://m.haimi.com/api/product/detail-cdn?ProductID=${this.data.detail_id}&platform=WAP`,
+        url:`http://m.haimi.com/api/product/detail-cdn?ProductID=4991877&platform=WAP`,
         header: {
           'content-type': 'application/json'
         },

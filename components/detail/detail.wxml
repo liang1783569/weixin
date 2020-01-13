@@ -1,4 +1,4 @@
-
+<view class="detail-contnent">
 <view class="detail" bindtap="detailTap">
   <swiper class='lunbo' indicator-dots='true' autoplay='true' interval='3000' circular="true">
       <swiper-item class="item">
@@ -33,4 +33,14 @@
 <text class="detail-discount">年货节大满减66减6/100减10/200减20/300减40</text>
 <text class="detail-size">请选择：尺码大小</text>
 <text class="detail-score">宝贝评分：</text>
+
 </view>
+<view class="foot">
+  <view class="foot-cont">
+    <image class="left" src="../../resources/home.png"></image>
+    <image class="left" src="../../resources/cellect1.png"></image>
+    <image class="left" src="../../resources/car.png"></image>
+  </view>
+  <view class="foot-cont">加入购物车</view>
+  <view class="foot-cont right">立即购买</view>
+</view></view>
