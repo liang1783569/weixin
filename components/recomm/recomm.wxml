@@ -169,7 +169,7 @@
         <view class="item-box" wx:for="{{productList}}" wx:key="ProductID">
           <image class="item-image" src="{{item.Pictures}}"></image>
           <text class="item-content">{{item.Subject}}</text>
-          <text class="item-price">{{item.FinalPrice}}</text>
+          <text class="item-price">￥ {{item.FinalPrice}}</text>
         </view>
       </view>
     </view>
@@ -179,7 +179,7 @@
         <view class="item-box" wx:for="{{beautyList}}" wx:key="ProductID">
           <image class="item-image" src="{{item.Pictures}}"></image>
           <text class="item-content">{{item.Subject}}</text>
-          <text class="item-price">{{item.FinalPrice}}</text>
+          <text class="item-price">￥ {{item.FinalPrice}}</text>
         </view>
       </view>
     </view>
@@ -189,7 +189,7 @@
         <view class="item-box" wx:for="{{homeList}}" wx:key="ProductID">
           <image class="item-image" src="{{item.Pictures}}"></image>
           <text class="item-content">{{item.Subject}}</text>
-          <text class="item-price">{{item.FinalPrice}}</text>
+          <text class="item-price">￥ {{item.FinalPrice}}</text>
         </view>
       </view>
     </view>
@@ -199,7 +199,7 @@
         <view class="item-box" wx:for="{{directList}}" wx:key="ProductID">
           <image class="item-image" src="{{item.Pictures}}"></image>
           <text class="item-content">{{item.Subject}}</text>
-          <text class="item-price">{{item.FinalPrice}}</text>
+          <text class="item-price">￥ {{item.FinalPrice}}</text>
         </view>
       </view>
     </view>
@@ -209,7 +209,7 @@
         <view class="item-box" wx:for="{{electList}}" wx:key="ProductID">
           <image class="item-image" src="{{item.Pictures}}"></image>
           <text class="item-content">{{item.Subject}}</text>
-          <text class="item-price">{{item.FinalPrice}}</text>
+          <text class="item-price">￥ {{item.FinalPrice}}</text>
         </view>
       </view>
     </view>
@@ -219,7 +219,7 @@
         <view class="item-box" wx:for="{{personList}}" wx:key="ProductID">
           <image class="item-image" src="{{item.Pictures}}"></image>
           <text class="item-content">{{item.Subject}}</text>
-          <text class="item-price">{{item.FinalPrice}}</text>
+          <text class="item-price">￥ {{item.FinalPrice}}</text>
         </view>
       </view>
     </view>
@@ -229,7 +229,7 @@
         <view class="item-box" wx:for="{{kitchenList}}" wx:key="ProductID">
           <image class="item-image" src="{{item.Pictures}}"></image>
           <text class="item-content">{{item.Subject}}</text>
-          <text class="item-price">{{item.FinalPrice}}</text>
+          <text class="item-price">￥ {{item.FinalPrice}}</text>
         </view>
       </view>
     </view>
@@ -239,7 +239,7 @@
         <view class="item-box" wx:for="{{bagList}}" wx:key="ProductID">
           <image class="item-image" src="{{item.Pictures}}"></image>
           <text class="item-content">{{item.Subject}}</text>
-          <text class="item-price">{{item.FinalPrice}}</text>
+          <text class="item-price">￥ {{item.FinalPrice}}</text>
         </view>
       </view>
     </view>
@@ -249,7 +249,7 @@
         <view class="item-box" wx:for="{{motherList}}" wx:key="ProductID">
           <image class="item-image" src="{{item.Pictures}}"></image>
           <text class="item-content">{{item.Subject}}</text>
-          <text class="item-price">{{item.FinalPrice}}</text>
+          <text class="item-price">￥ {{item.FinalPrice}}</text>
         </view>
       </view>
     </view>
