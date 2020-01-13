@@ -1,5 +1,12 @@
 /* components/detail/detail.wxss */
-
+.detail{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: #eee;
+  overflow-y: scroll;
+}
 .lunbo{
   width: 100%;
   height: 560rpx;
@@ -8,4 +15,69 @@
 image{
   width: 100%;
   height: 560rpx
+}
+.detail-discribe{
+  min-height: 90rpx;
+  font-size: 32rpx;
+  line-height: 45rpx;
+  padding: 0 30rpx;
+  background: #fff;
+}
+.detail-price{
+  font-size: 40rpx;
+  color: #991f33;
+  padding-left: 30rpx;
+  padding-bottom: 20rpx;
+  border-bottom: 1rpx solid #ccc;
+  background: #fff;
+}
+.detail-postage{
+  font-size: 25rpx;
+  height: 64rpx;
+  color: #999;
+  padding-left: 30rpx;
+  background: #fff;
+  line-height: 64rpx;
+  margin-bottom: 20rpx;
+}
+.detail-promise{
+  display: flex;
+  flex-direction: row;
+  padding-left: 30rpx;
+  background: #fff;
+  border-bottom: 1rpx solid #ccc;
+}
+.promise-one>image{
+  width: 100%;
+  height: 100%;
+}
+.detail-promise > text{
+  font-size: 26rpx;
+  /* width: 100%; */
+  height: 88rpx;
+  padding-right: 20rpx;
+  line-height: 88rpx;
+}
+.detail-discount{
+  font-size: 30rpx;
+  padding-left: 30rpx;
+  height: 88rpx;
+  line-height: 88rpx;
+  background: #fff;
+  margin-bottom: 20rpx;
+}
+.detail-size{
+  font-size: 30rpx;
+  padding-left: 30rpx;
+  height: 88rpx;
+  line-height: 88rpx;
+  background: #fff;
+  margin-bottom: 20rpx;
+}
+.detail-score{
+  font-size: 30rpx;
+  padding-left: 30rpx;
+  height: 88rpx;
+  line-height: 88rpx;
+  background: #fff;
 }

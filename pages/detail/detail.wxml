@@ -1,4 +1,5 @@
 <!--pages/detail/detail.wxml-->
-<view class="detail">
-   <detail></detail>
+<view class="detail-page">
+   <detail class="detail-cont" detail_id="{{detail_id}}"></detail>
+   <view class="foot"></view>
 </view>

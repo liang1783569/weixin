@@ -11,7 +11,7 @@
             <text>价格排序</text>
         </view>
         <view class="list-content">
-            <view class="item-box" wx:for="{{searchList}}" wx:key="ProductID">
+            <view class="item-box" wx:for="{{searchList}}" wx:key="ProductID" bindtap="getDetail">
                 <image class="item-img" src="{{item.Pictures}}"></image>
                 <text class="item-cont">{{item.Subject}}</text>
                 <text class="item-price">￥{{item.FinalPrice}}</text>
